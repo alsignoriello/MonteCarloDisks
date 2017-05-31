@@ -18,7 +18,7 @@ Nc = int(sys.argv[4])
 # Calculate Length of box
 
 # area of the disks
-A_disks = (np.pi / np.sqrt(r)) * N
+A_disks = (np.pi * r**2) * N
 
 # area of the box
 A_box = A_disks / phi
